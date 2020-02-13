@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+    background-color:rgb(247, 245, 241);
+    background-image: url("body.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+
+   
+
+;
+}
+/* the main container */
+
+
+
+.front-side,
+.back-side {
+  width: 220px;
+  height: 385px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:white;
+
+}
+
+.front-name{ 
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+margin-top: 332px;
+margin-left: 30px;
+color: gray;
+font-size: 20px;
+}
+.front-bottom{
+margin-left: 20px;
+font-style: italic;
+color:rgb(146, 144, 144);
+margin-top:2.5px;
+margin-left:30px;
+font-size: 13px;
+
+}
+.back-side{
+background-image: url("back.svg");
+
+}
+
+.front-side{
+background-image: url("front.svg");
+}
+
+/* what i am calling my full name */
+.name{
+  display: grid;
+  position: relative;
+  margin-left: 110px;
+  margin-top: 18px;
+  padding: 10px;
+  font-size: 18px;
+  color:gray
+  
+
+
+}
+.name1{
+margin-top: -9px;
+font-size: 12px;
+color:rgb(146, 144, 144);
+margin-left: 120px;
+
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-top: 31.5px;
+  margin-left:50px;
+  font-size: 12.5px;
+  color:rgb(112, 112, 112)
+
+}
+.third{
+  color:rgb(112, 112, 112);
+  font-size: 12.5px;
+  margin-left:50px;
+  margin-top: 5px;
+}
+
+.fourth{
+  color:rgb(112, 112, 112);
+  font-size: 12.5px;
+  margin-left:50px;
+  margin-top: 5px;
+
+}
+
+
+
+
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+
+
+/* h3{
+  margin-bottom: 0px;
+}
+
+h5{
+  margin-top: 0px;
+  padding-top: 0px;
+} */
